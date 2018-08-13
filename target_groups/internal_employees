@@ -1,0 +1,10 @@
+name: internal employees
+description: ''
+jsCondition:
+  operands:
+    - operands:
+        - email
+      operator: property
+    - .*@rollout\.io
+    - ''
+  operator: match
