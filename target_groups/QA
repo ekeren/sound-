@@ -1,11 +1,14 @@
 name: QA
 description: ''
 jsCondition:
+  operator: inArray
   operands:
-    - operands:
+    - operator: property
+      operands:
         - soundcloud_id
-      operator: property
     - - abcd1234
       - absb2121
       - sdlkjsdlkjsad
-  operator: inArray
+      - dssdadsadsd
+      - dsa2321321sa
+      - 213dsa32eddw3
