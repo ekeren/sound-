@@ -1,0 +1,57 @@
+name: following view
+description: Following view tab
+labels: []
+seed: 1e90ab31f6d817e8
+stickinessProperty: email
+platforms:
+  - deploymentConfiguration:
+      targeting:
+        - weight:
+            - value: 0
+              option: 'true'
+            - value: 1
+              option: 'false'
+          flag: []
+          groupLogicGate: or
+          group:
+            - All Users
+          type: all
+        - weight:
+            - value: 1
+              option: 'true'
+            - value: 0
+              option: 'false'
+          flag:
+            - value: 'true'
+              name: default.shuffle
+          groupLogicGate: or
+          group: []
+          type: flag
+        - weight:
+            - option: 'true'
+              value: 0
+            - option: 'false'
+              value: 1
+          flag: []
+          groupLogicGate: or
+          group:
+            - All Users
+          type: all
+    flag:
+      name: default.followingView
+      platform: Browser
+  - deploymentConfiguration:
+      targeting:
+        - weight:
+            - option: 'true'
+              value: 0
+            - option: 'false'
+              value: 1
+          flag: []
+          groupLogicGate: or
+          group:
+            - All Users
+          type: all
+    flag:
+      name: default.followingView
+      platform: tizen
