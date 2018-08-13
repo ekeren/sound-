@@ -1,0 +1,11 @@
+name: QA
+description: ''
+jsCondition:
+  operands:
+    - operands:
+        - soundcloud_id
+      operator: property
+    - - abcd1234
+      - absb2121
+      - sdlkjsdlkjsad
+  operator: inArray
