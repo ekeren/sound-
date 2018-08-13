@@ -1,0 +1,21 @@
+name: comments
+description: The comments section on each song
+labels: []
+seed: 71343779b2f87cfe
+stickinessProperty: rox.distinct_id
+platforms:
+  - deploymentConfiguration:
+      targeting:
+        - weight:
+            - value: 0.2
+              option: 'true'
+            - value: 0.8
+              option: 'false'
+          flag: []
+          groupLogicGate: or
+          group:
+            - All Users
+          type: all
+    flag:
+      name: default.comments
+      platform: Browser
