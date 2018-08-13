@@ -1,9 +1,0 @@
-name: DJ
-description: User with more the 100 playlists
-jsCondition:
-  operator: gt
-  operands:
-    - operator: property
-      operands:
-        - playlist_count
-    - 99
