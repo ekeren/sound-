@@ -17,16 +17,6 @@ platforms:
           group:
             - All Users
           type: all
-        - weight:
-            - value: 0
-              option: 'true'
-            - value: 1
-              option: 'false'
-          flag: []
-          groupLogicGate: or
-          group:
-            - All Users
-          type: all
     flag:
       name: default.playlist
       platform: Browser
