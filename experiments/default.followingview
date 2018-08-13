@@ -16,27 +16,6 @@ platforms:
           group:
             - All Users
           type: all
-        - weight:
-            - option: 'true'
-              value: 1
-            - option: 'false'
-              value: 0
-          flag:
-            - value: 'true'
-              name: default.shuffle
-          groupLogicGate: or
-          group: []
-          type: flag
-        - weight:
-            - value: 0
-              option: 'true'
-            - value: 1
-              option: 'false'
-          flag: []
-          groupLogicGate: or
-          group:
-            - All Users
-          type: all
     flag:
       name: default.followingView
       platform: Browser
