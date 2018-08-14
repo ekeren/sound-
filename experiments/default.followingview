@@ -1,7 +1,6 @@
 name: following view
 description: ''
-labels:
-  - Gradual Rollout
+labels: []
 seed: bce7f8b0ecaf3887
 stickinessProperty: rox.distinct_id
 platforms:
