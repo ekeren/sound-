@@ -8,9 +8,9 @@ platforms:
       targeting:
         - weight:
             - option: 'true'
-              value: 0
+              value: 0.5
             - option: 'false'
-              value: 1
+              value: 0.5
           flag: []
           groupLogicGate: or
           group:
