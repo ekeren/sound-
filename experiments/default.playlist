@@ -1,16 +1,17 @@
 name: playlist
 description: ''
-labels: []
+labels:
+  - Gradual Rollout
 seed: 22d881c87e36a83a
 stickinessProperty: rox.distinct_id
 platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - value: 0
-              option: 'true'
-            - value: 1
-              option: 'false'
+            - option: 'true'
+              value: 0
+            - option: 'false'
+              value: 1
           flag: []
           groupLogicGate: or
           group:
