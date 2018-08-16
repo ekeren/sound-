@@ -1,0 +1,21 @@
+name: shuffle
+description: ''
+labels: []
+seed: a3b9c9d0e3583a71
+stickinessProperty: rox.distinct_id
+platforms:
+  - deploymentConfiguration:
+      targeting:
+        - weight:
+            - option: 'true'
+              value: 0
+            - option: 'false'
+              value: 1
+          flag: []
+          groupLogicGate: or
+          group:
+            - All Users
+          type: all
+    flag:
+      name: default.shuffle
+      platform: Browser
