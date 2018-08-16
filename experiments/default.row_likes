@@ -1,0 +1,21 @@
+name: row likes
+description: ''
+labels: []
+seed: 51f699f20b18b79e
+stickinessProperty: rox.distinct_id
+platforms:
+  - deploymentConfiguration:
+      targeting:
+        - weight:
+            - option: 'true'
+              value: 0
+            - option: 'false'
+              value: 1
+          flag: []
+          groupLogicGate: or
+          group:
+            - All Users
+          type: all
+    flag:
+      name: default.row_likes
+      platform: Browser
