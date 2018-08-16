@@ -7,12 +7,12 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - value: 1
-              option: red
-            - value: 0
-              option: green
-            - value: 0
-              option: blue
+            - option: red
+              value: 0
+            - option: green
+              value: 1
+            - option: blue
+              value: 0
           flag: []
           groupLogicGate: or
           group:
