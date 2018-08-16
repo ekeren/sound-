@@ -9,9 +9,9 @@ platforms:
         - weight:
             - value: 0
               option: med
-            - value: 1
-              option: high
             - value: 0
+              option: high
+            - value: 1
               option: free
           flag: []
           groupLogicGate: or

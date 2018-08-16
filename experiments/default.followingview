@@ -7,9 +7,9 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - value: 1
+            - value: 0.5
               option: 'true'
-            - value: 0
+            - value: 0.5
               option: 'false'
           version:
             version: '1.2'
