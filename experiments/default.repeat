@@ -1,0 +1,21 @@
+name: repeat
+description: ''
+labels: []
+seed: 4b7a3e2dd96a9c51
+stickinessProperty: rox.distinct_id
+platforms:
+  - deploymentConfiguration:
+      targeting:
+        - weight:
+            - option: 'true'
+              value: 0
+            - option: 'false'
+              value: 1
+          flag: []
+          groupLogicGate: or
+          group:
+            - All Users
+          type: all
+    flag:
+      name: default.repeat
+      platform: Browser
