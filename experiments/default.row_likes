@@ -1,5 +1,5 @@
 name: row likes
-description: ''
+description: 'For '
 labels: []
 seed: 51f699f20b18b79e
 stickinessProperty: rox.distinct_id
@@ -7,10 +7,10 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - value: 0
-              option: 'true'
-            - value: 1
-              option: 'false'
+            - option: 'true'
+              value: 0
+            - option: 'false'
+              value: 1
           flag: []
           groupLogicGate: or
           group:
