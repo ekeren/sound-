@@ -1,5 +1,5 @@
 name: row likes
-description: 'For '
+description: 'For version '
 labels: []
 seed: 51f699f20b18b79e
 stickinessProperty: rox.distinct_id
