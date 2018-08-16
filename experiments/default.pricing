@@ -8,7 +8,7 @@ platforms:
       targeting:
         - weight:
             - option: med
-              value: 0
+              value: 1
             - option: high
               value: 0
             - option: free
