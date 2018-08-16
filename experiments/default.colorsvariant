@@ -1,0 +1,23 @@
+name: colors variant
+description: ''
+labels: []
+seed: bc8836fae923b9e7
+stickinessProperty: rox.distinct_id
+platforms:
+  - deploymentConfiguration:
+      targeting:
+        - weight:
+            - option: red
+              value: 0
+            - option: green
+              value: 0
+            - option: blue
+              value: 0
+          flag: []
+          groupLogicGate: or
+          group:
+            - All Users
+          type: all
+    flag:
+      name: default.colorsVariant
+      platform: Browser
