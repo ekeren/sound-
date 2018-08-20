@@ -7,36 +7,9 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - value: 1
-              option: 'true'
-            - value: 0
-              option: 'false'
-          version:
-            operator: '>='
-            version: 1.3.4
-          flag: []
-          groupLogicGate: or
-          group:
-            - internal employees
-            - QA
-          type: group
-        - weight:
             - value: 0.1
               option: 'true'
             - value: 0.9
-              option: 'false'
-          version:
-            operator: '>='
-            version: 1.3.4
-          flag: []
-          groupLogicGate: or
-          group:
-            - All Users
-          type: all
-        - weight:
-            - value: 0
-              option: 'true'
-            - value: 1
               option: 'false'
           flag: []
           groupLogicGate: or
