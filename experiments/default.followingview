@@ -18,6 +18,7 @@ platforms:
           groupLogicGate: or
           group:
             - internal employees
+            - QA
           type: group
         - weight:
             - value: 0.1
