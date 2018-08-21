@@ -2,16 +2,17 @@ name: following view
 description: ''
 labels:
   - report_to_analytics
+  - Gradual Rollout
 seed: 21306b96954f762c
 stickinessProperty: rox.distinct_id
 platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - option: 'true'
-              value: 1
-            - option: 'false'
-              value: 0
+            - value: 1
+              option: 'true'
+            - value: 0
+              option: 'false'
           flag: []
           groupLogicGate: or
           group:
