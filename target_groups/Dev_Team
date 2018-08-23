@@ -1,0 +1,11 @@
+name: Dev Team
+description: ''
+jsCondition:
+  operands:
+    - operands:
+        - email
+      operator: property
+    - - mike@rollout.io
+      - gal@rollout.io
+      - alex@rollout.io
+  operator: inArray
