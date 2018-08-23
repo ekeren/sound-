@@ -1,5 +1,5 @@
 name: repeat
-description: ''
+description: 'something to repeat'
 labels: []
 seed: 4b7a3e2dd96a9c51
 stickinessProperty: rox.distinct_id
