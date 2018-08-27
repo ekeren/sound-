@@ -1,0 +1,10 @@
+name: Beta Users
+description: ''
+jsCondition:
+  operands:
+    - operands:
+        - email
+      operator: property
+    - - mike@rollout.io
+      - nick@rollout.io
+  operator: inArray
