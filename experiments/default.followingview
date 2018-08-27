@@ -7,10 +7,14 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - option: 'true'
-              value: 0
-            - option: 'false'
+            - schedule:
+                start: 1535400179443
+              value: 0.1
+              option: 'true'
+            - schedule:
+                start: 1535414400000
               value: 1
+              option: 'true'
           flag: []
           groupLogicGate: or
           group:
