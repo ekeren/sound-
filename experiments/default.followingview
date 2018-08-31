@@ -7,10 +7,10 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - value: 1
-              option: 'true'
-            - value: 0
-              option: 'false'
+            - option: 'true'
+              value: 1
+            - option: 'false'
+              value: 0
           flag: []
           groupLogicGate: or
           group:
@@ -18,10 +18,20 @@ platforms:
             - Dev Team
           type: group
         - weight:
-            - value: 0
+            - value: 0.2
               option: 'true'
-            - value: 1
+            - value: 0.8
               option: 'false'
+          flag: []
+          groupLogicGate: or
+          group:
+            - DJ
+          type: group
+        - weight:
+            - option: 'true'
+              value: 0
+            - option: 'false'
+              value: 1
           flag: []
           groupLogicGate: or
           group:
