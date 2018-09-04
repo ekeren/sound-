@@ -7,6 +7,16 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
+            - value: 1
+              option: 'true'
+            - value: 0
+              option: 'false'
+          flag: []
+          groupLogicGate: or
+          group:
+            - localhost
+          type: group
+        - weight:
             - option: 'true'
               value: 0
             - option: 'false'
