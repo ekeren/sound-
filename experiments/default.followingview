@@ -14,16 +14,6 @@ platforms:
           flag: []
           groupLogicGate: or
           group:
-            - localhost
-          type: group
-        - weight:
-            - option: 'true'
-              value: 0
-            - option: 'false'
-              value: 1
-          flag: []
-          groupLogicGate: or
-          group:
             - All Users
           type: all
     flag:
