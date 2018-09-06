@@ -1,9 +1,9 @@
 name: DJ
 description: ''
 jsCondition:
-  operands:
-    - operands:
-        - playlist_count
-      operator: property
-    - 100
   operator: gte
+  operands:
+    - operator: property
+      operands:
+        - playlist_count
+    - 100
