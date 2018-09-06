@@ -1,10 +1,10 @@
 name: localhost
 description: ''
 jsCondition:
-  operands:
-    - operands:
-        - url
-      operator: property
-    - 'http://127\.0\..*'
-    - ''
   operator: match
+  operands:
+    - operator: property
+      operands:
+        - url
+    - 'http://127\.0.0\..*'
+    - ''
