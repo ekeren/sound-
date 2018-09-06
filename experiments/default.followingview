@@ -8,7 +8,7 @@ platforms:
       targeting:
         - weight:
             - value: 0
-              option: 'true'
+              option: 'false'
             - value: 1
               option: 'false'
           flag: []
