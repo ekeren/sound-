@@ -6,4 +6,4 @@ jsCondition:
     - operator: property
       operands:
         - playlist_count
-    - 100
+    - 95
