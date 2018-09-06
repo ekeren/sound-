@@ -1,5 +1,5 @@
 name: internal employees
-description: ''
+description: Rollout Emp
 jsCondition:
   operands:
     - operands:
