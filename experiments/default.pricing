@@ -1,0 +1,23 @@
+name: pricing
+description: ''
+labels: []
+seed: 491fa5046c225c06
+stickinessProperty: rox.distinct_id
+platforms:
+  - deploymentConfiguration:
+      targeting:
+        - weight:
+            - option: med
+              value: 0
+            - option: high
+              value: 0
+            - option: free
+              value: 1
+          flag: []
+          groupLogicGate: or
+          group:
+            - All Users
+          type: all
+    flag:
+      name: default.pricing
+      platform: Browser
