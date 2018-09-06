@@ -1,11 +1,10 @@
 name: Dev Team
 description: ''
 jsCondition:
-  operands:
-    - operands:
-        - email
-      operator: property
-    - - mike@rollout.io
-      - gal@rollout.io
-      - alex@rollout.io
   operator: inArray
+  operands:
+    - operator: property
+      operands:
+        - email
+    - - mike@rollout.io
+      - alex@rollout.io
