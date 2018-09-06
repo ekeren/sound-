@@ -1,0 +1,21 @@
+name: following view
+description: ''
+labels: []
+seed: d5611b989d9a3a1c
+stickinessProperty: rox.distinct_id
+platforms:
+  - deploymentConfiguration:
+      targeting:
+        - weight:
+            - option: 'true'
+              value: 0.5
+            - option: 'false'
+              value: 0.5
+          flag: []
+          groupLogicGate: or
+          group:
+            - All Users
+          type: all
+    flag:
+      name: default.followingView
+      platform: Browser
