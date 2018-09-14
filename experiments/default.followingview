@@ -14,8 +14,8 @@ platforms:
           flag: []
           groupLogicGate: or
           group:
-            - DJ
-          type: group
+            - All Users
+          type: all
         - weight:
             - value: 0
               option: 'true'
