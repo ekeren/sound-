@@ -7,15 +7,14 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - value: 1
+            - value: 0.1
               option: 'true'
-            - value: 0
+            - value: 0.9
               option: 'false'
           flag: []
           groupLogicGate: or
           group:
-            - internal employees
-            - Beta Users
+            - DJ
           type: group
         - weight:
             - value: 0
