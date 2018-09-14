@@ -8,38 +8,6 @@ platforms:
       targeting:
         - weight:
             - option: 'true'
-              value: 1
-            - option: 'false'
-              value: 0
-          flag:
-            - value: 'true'
-              name: default.shuffle
-          groupLogicGate: or
-          group: []
-          type: flag
-        - weight:
-            - option: 'true'
-              value: 1
-            - option: 'false'
-              value: 0
-          flag: []
-          groupLogicGate: or
-          group:
-            - Beta Users
-            - internal employees
-          type: group
-        - weight:
-            - option: 'true'
-              value: 0.1
-            - option: 'false'
-              value: 0.9
-          flag: []
-          groupLogicGate: or
-          group:
-            - DJ
-          type: group
-        - weight:
-            - option: 'true'
               value: 0
             - option: 'false'
               value: 1
