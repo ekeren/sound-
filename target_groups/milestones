@@ -1,0 +1,9 @@
+name: milestones
+description: ''
+jsCondition:
+  operands:
+    - operands:
+        - brand
+      operator: property
+    - - a
+  operator: inArray
