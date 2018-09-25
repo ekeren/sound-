@@ -7,10 +7,10 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - value: 1
-              option: 'true'
-            - value: 0
-              option: 'false'
+            - option: 'true'
+              value: 1
+            - option: 'false'
+              value: 0
           flag:
             - value: 'true'
               name: default.shuffle
@@ -18,10 +18,10 @@ platforms:
           group: []
           type: flag
         - weight:
-            - option: 'true'
-              value: 1
-            - option: 'false'
-              value: 0
+            - value: 1
+              option: 'true'
+            - value: 0
+              option: 'false'
           flag: []
           groupLogicGate: or
           group:
@@ -29,20 +29,20 @@ platforms:
             - Beta Users
           type: group
         - weight:
-            - value: 0.4
-              option: 'true'
-            - value: 0.6
-              option: 'false'
+            - option: 'true'
+              value: 0.4
+            - option: 'false'
+              value: 0.6
           flag: []
           groupLogicGate: or
           group:
             - DJ
           type: group
         - weight:
-            - option: 'true'
-              value: 0
-            - option: 'false'
-              value: 1
+            - value: 0
+              option: 'true'
+            - value: 1
+              option: 'false'
           flag: []
           groupLogicGate: or
           group:
