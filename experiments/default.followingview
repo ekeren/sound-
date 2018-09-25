@@ -11,38 +11,6 @@ platforms:
               option: 'true'
             - value: 0
               option: 'false'
-          flag:
-            - value: 'true'
-              name: default.shuffle
-          groupLogicGate: or
-          group: []
-          type: flag
-        - weight:
-            - option: 'true'
-              value: 1
-            - option: 'false'
-              value: 0
-          flag: []
-          groupLogicGate: or
-          group:
-            - internal employees
-            - Beta Users
-          type: group
-        - weight:
-            - value: 0.4
-              option: 'true'
-            - value: 0.6
-              option: 'false'
-          flag: []
-          groupLogicGate: or
-          group:
-            - DJ
-          type: group
-        - weight:
-            - option: 'true'
-              value: 0
-            - option: 'false'
-              value: 1
           flag: []
           groupLogicGate: or
           group:
