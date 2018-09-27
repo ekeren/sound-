@@ -1,16 +1,17 @@
 name: repeat
-description: 'something to repeat'
-labels: []
+description: something to repeat
+labels:
+  - stable_state_experiments
 seed: 4b7a3e2dd96a9c51
 stickinessProperty: rox.distinct_id
 platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - option: 'true'
-              value: 0
-            - option: 'false'
-              value: 1
+            - value: 0
+              option: 'true'
+            - value: 1
+              option: 'false'
           flag: []
           groupLogicGate: or
           group:
