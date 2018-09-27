@@ -1,5 +1,5 @@
 name: repeat
-description: Repeat song bu
+description: Repeat song button
 labels:
   - stable_state_experiments
 seed: 4b7a3e2dd96a9c51
