@@ -1,5 +1,5 @@
 name: repeat
-description: 'Repeat song '
+description: Repeat song bu
 labels:
   - stable_state_experiments
 seed: 4b7a3e2dd96a9c51
