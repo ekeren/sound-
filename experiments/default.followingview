@@ -1,5 +1,5 @@
 name: following view
-description: 'user screen '
+description: user screen following vieqw
 labels: []
 seed: d5611b989d9a3a1c
 stickinessProperty: rox.distinct_id
@@ -7,10 +7,10 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - option: 'true'
-              value: 0
-            - option: 'false'
-              value: 1
+            - value: 0
+              option: 'true'
+            - value: 1
+              option: 'false'
           flag: []
           groupLogicGate: or
           group:
