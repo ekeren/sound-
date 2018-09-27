@@ -1,5 +1,5 @@
 name: following view
-description: user screen following view
+description: user screen following view tab
 labels: []
 seed: d5611b989d9a3a1c
 stickinessProperty: rox.distinct_id
