@@ -1,5 +1,5 @@
 name: shuffle
-description: shuffle bu
+description: shuffle
 labels: []
 seed: d5ac2417c8fd9840
 stickinessProperty: rox.distinct_id
