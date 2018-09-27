@@ -11,6 +11,17 @@ platforms:
               option: 'true'
             - value: 0
               option: 'false'
+          flag:
+            - value: 'true'
+              name: default.shuffle
+          groupLogicGate: or
+          group: []
+          type: flag
+        - weight:
+            - value: 1
+              option: 'true'
+            - value: 0
+              option: 'false'
           flag: []
           groupLogicGate: or
           group:
