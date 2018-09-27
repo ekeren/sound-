@@ -1,5 +1,5 @@
 name: shuffle
-description: ''
+description: shif
 labels: []
 seed: d5ac2417c8fd9840
 stickinessProperty: rox.distinct_id
@@ -7,10 +7,10 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - option: 'true'
-              value: 1
-            - option: 'false'
-              value: 0
+            - value: 1
+              option: 'true'
+            - value: 0
+              option: 'false'
           flag: []
           groupLogicGate: or
           group:
@@ -22,10 +22,10 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - value: 0
-              option: 'true'
-            - value: 1
-              option: 'false'
+            - option: 'true'
+              value: 0
+            - option: 'false'
+              value: 1
           flag: []
           groupLogicGate: or
           group:
