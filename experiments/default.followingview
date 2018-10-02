@@ -14,24 +14,13 @@ platforms:
           flag: []
           groupLogicGate: or
           group:
-            - internal employees
-            - Dev Team
+            - Beta Users
           type: group
         - weight:
-            - value: 0.1
-              option: 'true'
-            - value: 0.9
-              option: 'false'
-          flag: []
-          groupLogicGate: or
-          group:
-            - DJ
-          type: group
-        - weight:
-            - value: 0
-              option: 'true'
-            - value: 1
-              option: 'false'
+            - option: 'true'
+              value: 0
+            - option: 'false'
+              value: 1
           flag: []
           groupLogicGate: or
           group:
