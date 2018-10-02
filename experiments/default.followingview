@@ -2,6 +2,7 @@ name: following view
 description: user screen following view tab
 labels:
   - Gradual Rollout
+  - THE NEW LABLE
 seed: d5611b989d9a3a1c
 stickinessProperty: rox.distinct_id
 platforms:
