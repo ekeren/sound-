@@ -3,26 +3,27 @@ description: user screen following view tab
 labels:
   - Gradual Rollout
   - THE NEW LABLE
+  - report_to_analytics
 seed: d5611b989d9a3a1c
 stickinessProperty: rox.distinct_id
 platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - option: 'true'
-              value: 1
-            - option: 'false'
-              value: 0
+            - value: 1
+              option: 'true'
+            - value: 0
+              option: 'false'
           flag: []
           groupLogicGate: or
           group:
             - Beta Users
           type: group
         - weight:
-            - value: 0
-              option: 'true'
-            - value: 1
-              option: 'false'
+            - option: 'true'
+              value: 0
+            - option: 'false'
+              value: 1
           flag: []
           groupLogicGate: or
           group:
