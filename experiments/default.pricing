@@ -1,4 +1,4 @@
-name: pricing_
+name: pricing_batch-
 description: ''
 labels:
   - Gradual Rollout
