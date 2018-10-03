@@ -8,12 +8,24 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - option: med
-              value: 0
-            - option: high
-              value: 0
-            - option: free
-              value: 1
+            - value: 1
+              option: med
+            - value: 0
+              option: high
+            - value: 0
+              option: free
+          flag: []
+          groupLogicGate: or
+          group:
+            - Dev Team
+          type: group
+        - weight:
+            - value: 0
+              option: med
+            - value: 0.2
+              option: high
+            - value: 0
+              option: free
           flag: []
           groupLogicGate: or
           group:
