@@ -2,30 +2,31 @@ name: pricing
 description: ''
 labels:
   - Gradual Rollout
+  - AB
 seed: 491fa5046c225c06
 stickinessProperty: rox.distinct_id
 platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - value: 1
-              option: med
-            - value: 0
-              option: high
-            - value: 0
-              option: free
+            - option: med
+              value: 1
+            - option: high
+              value: 0
+            - option: free
+              value: 0
           flag: []
           groupLogicGate: or
           group:
             - Dev Team
           type: group
         - weight:
-            - value: 0
-              option: med
-            - value: 0.2
-              option: high
-            - value: 0
-              option: free
+            - option: med
+              value: 0
+            - option: high
+              value: 0.2
+            - option: free
+              value: 0
           flag: []
           groupLogicGate: or
           group:
