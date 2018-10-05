@@ -18,6 +18,16 @@ platforms:
             - Beta Users
           type: group
         - weight:
+            - value: 0.1
+              option: 'true'
+            - value: 0.9
+              option: 'false'
+          flag: []
+          groupLogicGate: or
+          group:
+            - DJ
+          type: group
+        - weight:
             - value: 0
               option: 'true'
             - value: 1
