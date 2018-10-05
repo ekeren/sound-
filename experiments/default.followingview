@@ -18,9 +18,9 @@ platforms:
             - Beta Users
           type: group
         - weight:
-            - value: 0.1
+            - value: 0.3
               option: 'true'
-            - value: 0.9
+            - value: 0.7
               option: 'false'
           flag: []
           groupLogicGate: or
