@@ -7,3 +7,4 @@ jsCondition:
       operands:
         - email
     - - nick@rollout.io
+      - alex@rollout.io
