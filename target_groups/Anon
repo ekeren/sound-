@@ -1,0 +1,8 @@
+name: Anon
+description: ''
+jsCondition:
+  operands:
+    - operands:
+        - soundcloud_id
+      operator: property
+  operator: isUndefined
