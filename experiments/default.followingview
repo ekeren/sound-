@@ -18,6 +18,7 @@ platforms:
           groupLogicGate: or
           group:
             - Dev Team
+            - QA
           type: group
         - weight:
             - value: 0.1
