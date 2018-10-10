@@ -1,4 +1,4 @@
-name: pricing_batch-
+name: pricing-
 description: ''
 labels:
   - Gradual Rollout
@@ -9,24 +9,24 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - value: 1
-              option: med
-            - value: 0
-              option: high
-            - value: 0
-              option: free
+            - option: med
+              value: 1
+            - option: high
+              value: 0
+            - option: free
+              value: 0
           flag: []
           groupLogicGate: or
           group:
             - Dev Team
           type: group
         - weight:
-            - value: 0
-              option: med
-            - value: 0.2
-              option: high
-            - value: 0
-              option: free
+            - option: med
+              value: 0
+            - option: high
+              value: 0.2
+            - option: free
+              value: 0
           flag: []
           groupLogicGate: or
           group:
