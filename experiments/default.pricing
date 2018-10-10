@@ -11,7 +11,7 @@ platforms:
         - weight:
             - value: 0.3333333333333333
               option: med
-            - value: 0.3333333333333333
+            - value: 0
               option: high
             - value: 0.34
               option: free
