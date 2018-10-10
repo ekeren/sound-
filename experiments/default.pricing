@@ -25,7 +25,7 @@ platforms:
               option: med
             - value: 0.33
               option: high
-            - value: 0.33
+            - value: 0.34
               option: free
           flag: []
           groupLogicGate: or
