@@ -23,9 +23,9 @@ platforms:
         - weight:
             - value: 0.33
               option: med
-            - value: 0
+            - value: 0.33
               option: high
-            - value: 0
+            - value: 0.33
               option: free
           flag: []
           groupLogicGate: or
