@@ -7,23 +7,9 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - value: 1
-              option: 'true'
             - value: 0
-              option: 'false'
-          version:
-            operator: '>='
-            version: 1.2.0
-          flag: []
-          groupLogicGate: or
-          group:
-            - Dev Team
-            - QA
-          type: group
-        - weight:
-            - value: 0.1
               option: 'true'
-            - value: 0.9
+            - value: 1
               option: 'false'
           flag: []
           groupLogicGate: or
