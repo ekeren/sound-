@@ -7,10 +7,10 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - option: 'true'
-              value: 1
-            - option: 'false'
-              value: 0
+            - value: 1
+              option: 'true'
+            - value: 0
+              option: 'false'
           flag: []
           groupLogicGate: or
           group:
@@ -19,18 +19,3 @@ platforms:
     flag:
       name: default.row_likes
       platform: Browser
-  - deploymentConfiguration:
-      targeting:
-        - weight:
-            - option: 'true'
-              value: 0
-            - option: 'false'
-              value: 1
-          flag: []
-          groupLogicGate: or
-          group:
-            - All Users
-          type: all
-    flag:
-      name: default.row_likes
-      platform: tizen
