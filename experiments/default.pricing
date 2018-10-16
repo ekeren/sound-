@@ -1,4 +1,4 @@
-name: pricing-=
+name: pricing
 description: ''
 labels:
   - Gradual Rollout
@@ -9,12 +9,12 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - option: med
-              value: 0.3333333333333333
-            - option: high
-              value: 0
-            - option: free
-              value: 0.34
+            - value: 0.3333333333333333
+              option: med
+            - value: 0
+              option: high
+            - value: 0.34
+              option: free
           flag: []
           groupLogicGate: or
           group:
