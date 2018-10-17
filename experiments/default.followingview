@@ -7,21 +7,18 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - value: 1
+            - schedule:
+                start: 1539803740210
+              value: 0
               option: 'true'
-            - value: 0
-              option: 'false'
-          flag: []
-          groupLogicGate: or
-          group:
-            - internal employees
-            - Dev Team
-          type: group
-        - weight:
-            - value: 0
+            - schedule:
+                start: 1540166400000
+              value: 0.05
               option: 'true'
-            - value: 1
-              option: 'false'
+            - schedule:
+                start: 1541376000000
+              value: 1
+              option: 'true'
           flag: []
           groupLogicGate: or
           group:
