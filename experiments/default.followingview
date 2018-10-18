@@ -12,7 +12,7 @@ platforms:
               value: 0
               option: 'true'
             - schedule:
-                start: 1540166400000
+                start: 1539907200000
               value: 0.05
               option: 'true'
             - schedule:
