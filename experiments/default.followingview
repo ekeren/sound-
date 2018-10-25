@@ -7,15 +7,14 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - option: 'true'
-              value: 1
-            - option: 'false'
-              value: 0
+            - value: 0.1
+              option: 'true'
+            - value: 0.9
+              option: 'false'
           flag: []
           groupLogicGate: or
           group:
             - internal employees
-            - Dev Team
           type: group
         - weight:
             - option: 'true'
